@@ -9,7 +9,6 @@ from datetime import datetime
 import pandas as pd
 import uvicorn
 from contextlib import asynccontextmanager
-
 from models.ultimate_hybrid_recommender import UltimateHybridRecommender
 
 # Pydantic models for API requests/responses
